@@ -8,6 +8,7 @@ public final class NaughtyCorner extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        this.saveDefaultConfigValues();
         this.saveDefaultConfig();
 
         // register bungee channel
